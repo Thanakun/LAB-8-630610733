@@ -2,6 +2,19 @@
 using namespace std;
 
 //Write the function printO() here
+int printO(int N,int M){
+	if(N > 0 && M > 0){
+		for(int column = 0; column < N; column++){
+			for(int count = 0; count < M; count ++){
+				cout << "O";
+			}
+			cout << "\n";
+		}
+	}else{
+		cout << "Invalid input";
+	}
+	return 0;
+}
 
 int main(){
 	
